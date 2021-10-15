@@ -1,4 +1,5 @@
 # Capstone: Restaurant Reservation System
+<img width="1275" alt="Screen Shot 2021-10-14 at 8 56 45 PM" src="https://user-images.githubusercontent.com/36218596/137415607-fa568906-3d6e-4307-84ad-6f4ed44b0870.png">
 
 > You have been hired as a full stack developer at _Periodic Tables_, a startup that is creating a reservation system for fine dining restaurants.
 > The software is used only by restaurant personnel when a customer calls to request a reservation.
