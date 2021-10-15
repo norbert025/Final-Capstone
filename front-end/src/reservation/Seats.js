@@ -3,7 +3,7 @@ import { useHistory, useParams } from "react-router-dom";
 import ErrorAlert from "../layout/ErrorAlert";
 import { listReservations, seatTable } from "../utils/api";
 
-// Seats function
+// Seats function //
 function Seats({ loadDashboard, tables }) {
   const history = useHistory();
 
@@ -102,24 +102,23 @@ function Seats({ loadDashboard, tables }) {
 
   // JSX render
   return (
-    <form className="form-select">
+    <form>
       {errorsRender()}
       <ErrorAlert error={api_Error} />
       <ErrorAlert error={reservation_Error} />
 
-      <label className="form-label" htmlFor="table_id">
-        Choose table:
-      </label>
+      <label htmlFor="table_id">Choose table:</label>
       <select
-        className="form-control"
         name="table_id"
         id="table_id"
         value={table_id}
         onChange={handleChange}
       >
+        <br />
         <option value={0}>Choose A Table</option>
         {tableOptionsRender()}
       </select>
+      <br />
       <button className="btn btn-primary" type="submit" onClick={handleSubmit}>
         Submit
       </button>

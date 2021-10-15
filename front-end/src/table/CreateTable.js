@@ -70,11 +70,11 @@ function CreateTable({ loadDashboard }) {
           </label>
         </div>
         <div>
-          <button type="submit" className="btn btn-primary">
-            Submit
-          </button>
           <button className="btn btn-secondary" onClick={history.goBack}>
             Cancel
+          </button>
+          <button type="submit" className="btn btn-primary">
+            Submit
           </button>
         </div>
       </form>
